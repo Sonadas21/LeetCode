@@ -13,9 +13,7 @@ class Solution {
             }
         }
         if(k>count){
-            for(int i=0;i<s.length();i++){
-                str +=s.charAt(i);
-            }
+            str=s;
         }
         else if(k==count){
             for(int i=0;i<r;i++){
